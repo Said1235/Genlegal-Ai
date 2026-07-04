@@ -1,0 +1,10 @@
+# GenLayer contract development & testing toolchain.
+# Pinned to the same sources the official project-boilerplate uses.
+genlayer-py @ git+https://github.com/genlayerlabs/genlayer-py@v0.18
+genlayer-test @ git+https://github.com/genlayerlabs/genlayer-testing-suite@v0.29
+genvm-linter @ git+https://github.com/genlayerlabs/genvm-linter@main
+python-dotenv>=1.0.1
+
+# If the git+https sources above are unavailable in your environment, the
+# PyPI releases work too (used to validate this project):
+#   pip install genvm-linter genlayer-test --break-system-packages
