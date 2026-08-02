@@ -1,0 +1,14 @@
+{
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_creates_analysis_and_returns_id": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_stats_and_listing_update": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_rejects_empty_text": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_rejects_text_over_limit": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_malformed_llm_json_is_rejected": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_missing_risk_score_is_rejected": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestAnalyzeContract::test_key_aliasing_is_tolerated": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestMultiUser::test_get_my_analyses_filters_by_owner": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestEquivalencePrincipleValidator::test_validator_agrees_within_score_tolerance": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestEquivalencePrincipleValidator::test_validator_disagrees_on_risk_level_mismatch": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestEquivalencePrincipleValidator::test_validator_disagrees_when_score_drifts_too_far": true,
+  "tests/direct/test_legal_contract_analyzer.py::TestEquivalencePrincipleValidator::test_leader_failure_on_garbage_output_aborts_before_validator": true
+}
